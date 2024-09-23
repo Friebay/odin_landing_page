@@ -7,41 +7,82 @@
     <title>Landing page</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <header>
-    <img src="images/header_logo.png" alt="Header logo" width="100px" height="50px">
-    <a href="header_link_one">header link one</a>
-    <a href="header_link_two">header link two</a>
-    <a href="header_link_three">header link three</a>
-  </header>
   <body>
-    <div>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title.</p>
-        <button>Sign up</button>
-        <img src="images/meeting.jpg" alt="this is a placeholder for an image" width="300x" height="160px">
+    <header>
+      <div class="content-wrapper">
+        Cool Website 
+        <nav>
+          <a href="header_link_one">Cool link</a>
+          <a href="header_link_two">Very cool link</a>
+          <a href="header_link_three">Very very cool link</a>
+        </nav>
+      </div>
+    </header>
+  
+    <div class="hero">
+      <div class="content-wrapper">
+        <div class="text-content">
+          <h1>This website is awesome</h1>
+          <p class="subtext">This website has some subtext that goes here under the main title. Text text text text text text. Text text text text text text. Text text text text text text. Text text text text text text. Text text text text text text. Text text text text text text.</p>
+          <button>Sign up</button>
+        </div>
+        <img src="images/meeting.jpg" alt="this is a placeholder for an image" width="600" height="338">
+      </div>
     </div>
-    <div>
+  
+    <div class="info-section">
+      <div class="content-wrapper">
         <h2>Some random information.</h2>
-        <figure class="item">
-            <img src="images/1_stock_image.jpg" width="100px" height="100px"/>
-            <figcaption class="caption">Text below the image</figcaption>
-            <img src="images/2_stock_image.jpg" width="100px" height="100px" />
-            <figcaption class="caption">Text below the image</figcaption>
-            <img src="images/3_stock_image.webp" width="100px" height="100px" />
-            <figcaption class="caption">Text below the image</figcaption>
-            <img src="images/4_stock_image.jpg" width="100px" height="100px" />
-            <figcaption class="caption">Text below the image</figcaption>
-        </figure> 
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="images/1_stock_image.jpg" width="200" height="200" alt="Stock image 1" />
+            <p class="caption">Text below the image. Text text text.</p>
+          </div>
+          <div class="image-item">
+            <img src="images/2_stock_image.jpg" width="200" height="200" alt="Stock image 2" />
+            <p class="caption">Text below the image. Text text text.</p>
+          </div>
+          <div class="image-item">
+            <img src="images/3_stock_image.webp" width="200" height="200" alt="Stock image 3" />
+            <p class="caption">Text below the image. Text text text.</p>
+          </div>
+          <div class="image-item">
+            <img src="images/4_stock_image.jpg" width="200" height="200" alt="Stock image 4" />
+            <p class="caption">Text below the image. Text text text.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-        <qoute>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space. All I know it looks nice.</qoute>
-        <p>- Thor, God of Thunder</p>
+  
+    <div class="quote-section">
+      <div class="content-wrapper">
+        <div class="quote-content">
+          <blockquote>
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space. All I know is it looks nice. Text text text text text text. Text text text text text text. Text text text text text text.
+          </blockquote>
+          <p>- Thor, God of Thunder</p>
+        </div>
+      </div>
     </div>
-    <div>
-        <strong>Call to action! It's time!</strong>
-        Sign up for our product by clicking that button right over there!
-        <button>Sign up</button>
+    
+  
+    <div class="cta-section">
+      <div class="content-wrapper">
+        <div class="cta-content">
+          <div class="cta-text">
+            <strong>Call to action! It's time!</strong>
+            <p>Sign up for our product by clicking that button right over there!</p>
+          </div>
+          <button>Sign up</button>
+        </div>
+      </div>
     </div>
+    
+  
+    <footer>
+      <div class="content-wrapper">
+        Copyright © The Web Programming Project 2024
+      </div>
+    </footer>
   </body>
-  <footer>Copyright &#169; The Web Programming Project 2024</footer>
 </html>
